@@ -25,7 +25,7 @@ This script is designed to simplify the management of the WiVRn application, whi
 3. **Create the Script File**:
    Create a new file for the script:
    ```bash
-   nano ~/Desktop/run-wivrn.sh
+   nano ~/Desktop/run-wivrn
    ```
 
 4. **Copy the Script**:

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Ensure avahi-daemon is running/enabled
+systemctl is-active --quiet avahi-daemon || { systemctl enable --now avahi-daemon; }
+
+# Check for WiVRn running (case-insensitive search for "wivrn" and "dashboard") and start if not present
+ps aux | grep -i wivrn | grep -i dashboard >/dev/null 2>&1 || nohup flatpak run io.github.wivrn.wivrn >/dev/null 2>&1 &

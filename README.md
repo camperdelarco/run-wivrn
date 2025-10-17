@@ -61,10 +61,9 @@ This command will start the WiVRn application and then execute the SteamKill scr
 ## Acknowledgments
 
 - Thanks to **xytovl** for creating **WiVRn**, an excellent open-source project for enhancing Linux gaming.
+- ChatGPT for creating this project readme and the script
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-
-Feel free to adjust any additional sections or details. Once you're satisfied, you can create or update the `README.md` file in your GitHub repository with this content. Let me know if there's anything else you need!

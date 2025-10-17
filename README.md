@@ -45,7 +45,7 @@ This script is designed to simplify the management of the WiVRn application, whi
 5. **Make the Script Executable**:
    Run the following command:
    ```bash
-   chmod +x ~/Desktop/run-wivrn.sh
+   chmod +x ~/Desktop/run-wivrn
    ```
 
 ## Usage
@@ -53,7 +53,7 @@ This script is designed to simplify the management of the WiVRn application, whi
 To run the script along with `steamkill`, use the following command in your terminal:
 
 ```bash
-/home/a/Desktop/run-wivrn.sh && sudo /home/a/Desktop/steamkill.sh
+/home/a/Desktop/run-wivrn && sudo /home/a/Desktop/steamkill
 ```
 
 This command will start the WiVRn application and then execute the SteamKill script.

@@ -4,11 +4,11 @@
 
 ## Description
 
-This script is designed to simplify the management of the WiVRn application, which is useful for enhancing the virtual reality gaming experience on Linux. It automates the checking and launching of the application, ensuring you can focus on your gameplay without manual setup.
+Initiates wivrn and avahi-daemon if they are currently not running, while avoiding duplicate processes
 
 ## Requirements
 
-- **Linux Environment**: Tested on various Linux distributions.
+- **Linux Environment**: Tested on mint 22.04.
 - **Flatpak**: Ensure that WiVRn is installed via Flatpak.
 - **Avahi-daemon**: This script checks for and manages the avahi-daemon service.
 
